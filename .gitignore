@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment & API Keys (CRITICAL)
+.env
+
+# Data & Database
+qdrant_db/
+data/
+docs/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
