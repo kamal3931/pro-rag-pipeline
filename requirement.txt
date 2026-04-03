@@ -1,0 +1,7 @@
+llama-index
+llama-parse
+langchain
+langchain-openai
+qdrant-client
+ragas
+python-dotenv

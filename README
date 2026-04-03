@@ -1,0 +1,14 @@
+# Production-Grade Financial RAG Pipeline (SanDisk 2025)
+
+### 🚀 Overview
+An end-to-end RAG system designed to extract high-precision data from the 2025 SanDisk Proxy Statement.
+
+### 🛠️ The "Senior-Level" Stack
+* **Ingestion:** LlamaParse (High-fidelity table reconstruction).
+* **Vector DB:** Qdrant (Persistent local storage).
+* **Brain:** OpenAI GPT-4o (Reasoning & Synthesis).
+* **Architecture:** Metadata-Filtered Retrieval to prevent semantic overlap between financial and governance sections.
+
+### 🧪 Validation Case
+* **Query:** "What was the Transaction Completion Award for the CEO?"
+* **Answer:** $2,600,000 (Correctly extracted from the compensation table post-WDC separation).
